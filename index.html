@@ -1,0 +1,1686 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SERENTEA — Calm the Cacophony | Artisanal Lounge &amp; Micro-Roastery, Kolkata</title>
+  <meta name="description" content="Serentea — Calm the Cacophony. Artisanal tea lounge and micro-roastery at 18A Parasar Rd, Lake Market, Kalighat, Kolkata. Hand-crafted single-estate teas, slow brewing rituals, and quiet sanctuary.">
+
+  <!-- Favicon / Brand Symbol -->
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="apple-touch-icon" href="logo.png">
+
+  <!-- Google Fonts Preconnect & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface": "#fdf9f0",
+            "surface-bright": "#fdf9f0",
+            "surface-dim": "#dddad1",
+            "surface-container-lowest": "#ffffff",
+            "surface-container-low": "#f7f3ea",
+            "surface-container": "#f1eee5",
+            "surface-container-high": "#ece8df",
+            "surface-container-highest": "#e6e2d9",
+            "surface-variant": "#e6e2d9",
+            "on-surface": "#1c1c16",
+            "on-surface-variant": "#424844",
+            "inverse-surface": "#31302b",
+            "inverse-on-surface": "#f4f0e7",
+            "primary": "#10271d",
+            "primary-container": "#263d32",
+            "on-primary": "#ffffff",
+            "on-primary-container": "#8ea899",
+            "primary-fixed": "#cee9d9",
+            "primary-fixed-dim": "#b2cdbd",
+            "secondary": "#8e4d30",
+            "secondary-container": "#ffa987",
+            "on-secondary": "#ffffff",
+            "on-secondary-container": "#793c21",
+            "secondary-fixed": "#ffdbce",
+            "secondary-fixed-dim": "#ffb598",
+            "tertiary": "#1e2515",
+            "tertiary-container": "#343b29",
+            "on-tertiary": "#ffffff",
+            "on-tertiary-container": "#9da58e",
+            "tertiary-fixed": "#dee6cd",
+            "outline": "#727974",
+            "outline-variant": "#c2c8c3",
+            "surface-tint": "#4c6457"
+          },
+          borderRadius: {
+            DEFAULT: "0.125rem",
+            lg: "0.25rem",
+            xl: "0.5rem",
+            full: "0.75rem",
+            "2xl": "1rem"
+          },
+          spacing: {
+            "space-xs": "0.375rem",
+            "space-sm": "0.75rem",
+            "space-md": "1.25rem",
+            "space-lg": "2rem",
+            "space-xl": "3.5rem",
+            gutter: "1.5rem",
+            "gutter-mobile": "1rem",
+            margin: "3rem",
+            "margin-mobile": "1.25rem"
+          },
+          fontFamily: {
+            display: ["Playfair Display", "serif"],
+            "headline-lg": ["Playfair Display", "serif"],
+            "headline-md": ["Playfair Display", "serif"],
+            "headline-sm": ["Playfair Display", "serif"],
+            title: ["Plus Jakarta Sans", "sans-serif"],
+            "body-lg": ["Plus Jakarta Sans", "sans-serif"],
+            "body-md": ["Plus Jakarta Sans", "sans-serif"],
+            "body-sm": ["Plus Jakarta Sans", "sans-serif"],
+            "label-lg": ["Plus Jakarta Sans", "sans-serif"],
+            "label-md": ["Plus Jakarta Sans", "sans-serif"],
+            "label-sm": ["Plus Jakarta Sans", "sans-serif"]
+          },
+          fontSize: {
+            display: ["56px", { lineHeight: "64px", letterSpacing: "-0.02em", fontWeight: "400" }],
+            "display-mobile": ["38px", { lineHeight: "46px", letterSpacing: "-0.02em", fontWeight: "400" }],
+            "headline-lg": ["40px", { lineHeight: "48px", letterSpacing: "-0.01em", fontWeight: "400" }],
+            "headline-md": ["28px", { lineHeight: "36px", fontWeight: "500" }],
+            "headline-sm": ["22px", { lineHeight: "30px", fontWeight: "600" }],
+            title: ["18px", { lineHeight: "26px", letterSpacing: "-0.01em", fontWeight: "600" }],
+            "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }],
+            "body-md": ["15px", { lineHeight: "24px", fontWeight: "400" }],
+            "body-sm": ["13px", { lineHeight: "20px", fontWeight: "400" }],
+            "label-lg": ["14px", { lineHeight: "20px", letterSpacing: "0.04em", fontWeight: "600" }],
+            "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.06em", fontWeight: "600" }],
+            "label-sm": ["11px", { lineHeight: "14px", letterSpacing: "0.08em", fontWeight: "500" }]
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- High-Performance Editorial Scroll Animation Styles -->
+  <style>
+    /* Lenis Smooth Scroll Integration */
+    html.lenis, html.lenis body {
+      height: auto;
+    }
+    .lenis.lenis-smooth {
+      scroll-behavior: auto !important;
+    }
+    .lenis.lenis-smooth [data-lenis-prevent] {
+      overscroll-behavior: contain;
+    }
+    .lenis.lenis-stopped {
+      overflow: hidden;
+    }
+    .lenis.lenis-scrolling iframe {
+      pointer-events: none;
+    }
+
+    /* Custom Luxury Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #fdf9f0;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #c2c8c3;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #8e4d30;
+    }
+
+    /* Ambient Float Animation */
+    @keyframes gentleFloat {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-7px) rotate(0.4deg); }
+    }
+    .animate-float-slow {
+      animation: gentleFloat 5.5s ease-in-out infinite;
+    }
+
+    /* Scroll Reveal Animation Styles (IntersectionObserver Powered) */
+    .scroll-fade-up {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1), transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+      will-change: opacity, transform;
+    }
+    .scroll-fade-up.is-revealed {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Horizontal Accent Line Expanding on Scroll */
+    .accent-expand {
+      width: 0rem;
+      transition: width 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .is-revealed .accent-expand {
+      width: 2rem;
+    }
+
+    /* Flower Divider Rotation on Scroll Reveal */
+    .flower-glyph {
+      transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .is-revealed .flower-glyph {
+      transform: rotate(180deg);
+    }
+
+    /* Parallax Image Frame */
+    .parallax-frame {
+      overflow: hidden;
+      position: relative;
+    }
+    .parallax-img {
+      will-change: transform;
+      transition: transform 0.15s ease-out;
+    }
+
+    /* Dynamic Frosted Header on Scroll */
+    .header-scrolled {
+      background-color: rgba(253, 249, 240, 0.92) !important;
+      backdrop-filter: blur(14px) !important;
+      -webkit-backdrop-filter: blur(14px) !important;
+      box-shadow: 0 4px 20px -2px rgba(16, 39, 29, 0.06) !important;
+      height: 4.25rem !important;
+    }
+
+    /* Nav Link Hover Underline Indicator */
+    .nav-link {
+      position: relative;
+    }
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 0%;
+      height: 1.5px;
+      background-color: #10271d;
+      transition: width 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .nav-link:hover::after,
+    .nav-link.active::after {
+      width: 100%;
+    }
+
+    /* Card Lift on Hover */
+    .card-elevate {
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease;
+    }
+    .card-elevate:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 18px 30px -8px rgba(16, 39, 29, 0.08);
+      border-color: rgba(142, 77, 48, 0.3);
+    }
+
+    /* Infinite Marquee */
+    @keyframes marqueeScroll {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-50%); }
+    }
+    .marquee-track {
+      display: flex;
+      width: 200%;
+      animation: marqueeScroll 32s linear infinite;
+    }
+    .marquee-track:hover {
+      animation-play-state: paused;
+    }
+  </style>
+</head>
+
+<body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary/20 selection:text-secondary">
+
+  <!-- ========================================== -->
+  <!-- 00. SCROLL PROGRESS BAR                    -->
+  <!-- ========================================== -->
+  <div id="scroll-progress-bar" class="fixed top-0 left-0 h-[3px] bg-gradient-to-r from-primary via-secondary to-primary-container z-[60] w-0 transition-all duration-75 ease-out shadow-sm"></div>
+
+  <!-- ========================================== -->
+  <!-- 01. NAVIGATION BAR                         -->
+  <!-- ========================================== -->
+  <header id="main-header" class="fixed top-0 left-0 w-full z-50 bg-surface/85 backdrop-blur-md border-b border-primary/5 transition-all duration-300 ease-in-out">
+    <div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between transition-all duration-300" id="header-container">
+      
+      <!-- Brand Logo / Official Seal matching user brand identity -->
+      <a href="#hero-section" class="flex items-center gap-space-sm group cursor-pointer focus:outline-none" aria-label="SERENTEA Home">
+        <img src="logo.png" alt="SERENTEA Logo" class="w-11 h-11 rounded-full object-contain p-0.5 border border-primary/20 shadow-sm transition-transform duration-500 group-hover:scale-105 group-hover:rotate-3 bg-surface-container-lowest">
+        <div class="flex flex-col">
+          <span class="font-headline-sm text-[22px] tracking-tight font-serif text-primary leading-none group-hover:text-secondary transition-colors duration-300">SERENTEA</span>
+          <span class="font-label-sm text-[9.5px] uppercase tracking-[0.24em] text-secondary font-semibold mt-1">Calm the Cacophony</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden lg:flex items-center gap-space-lg" id="desktop-nav" aria-label="Main Navigation">
+        <a href="#hero-section" class="nav-link font-label-lg text-label-lg text-primary font-semibold pb-1 active" data-nav="home">Home</a>
+        <a href="#philosophy-section" class="nav-link font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors pb-1" data-nav="our-story">Our Story</a>
+        <a href="#signature-menu" class="nav-link font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors pb-1" data-nav="menu">Menu</a>
+        <a href="#the-space" class="nav-link font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors pb-1" data-nav="the-space">The Space</a>
+        <a href="#gallery" class="nav-link font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors pb-1" data-nav="gallery">Gallery</a>
+        <a href="#visit-serentea" class="nav-link font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors pb-1" data-nav="visit-and-contact">Visit &amp; Contact</a>
+      </nav>
+
+      <!-- Action Buttons & Audio Ambience -->
+      <div class="flex items-center gap-space-sm sm:gap-space-md">
+        <!-- Soundscape Ambience Toggle -->
+        <button id="audio-toggle-btn" class="hidden md:flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-outline-variant/60 text-on-surface-variant hover:text-primary hover:border-primary/40 text-xs transition-all duration-300" title="Toggle Tea House Rain &amp; Steam Ambience" aria-label="Toggle ambient sound">
+          <span class="material-symbols-outlined text-[16px] text-secondary">volume_mute</span>
+          <span class="text-[11px] font-medium tracking-wide uppercase audio-btn-text">Ambience</span>
+        </button>
+
+        <!-- Find Your Table CTA -->
+        <button onclick="openReservationModal()" class="hidden sm:inline-flex items-center justify-center bg-primary-container text-surface px-space-md py-space-xs rounded font-label-md text-label-md tracking-wider uppercase hover:bg-primary transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-0.5">
+          Find Your Table
+        </button>
+
+        <!-- User Profile Pill -->
+        <div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-on-primary shadow-sm" title="Guest Concierge">
+          <span class="material-symbols-outlined text-[18px]">person</span>
+        </div>
+
+        <!-- Mobile Menu Hamburger Button -->
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-primary focus:outline-none" aria-label="Toggle Navigation Menu">
+          <span class="material-symbols-outlined text-[26px]">menu</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-drawer" class="hidden lg:hidden border-t border-primary/10 bg-surface px-6 py-6 space-y-4 shadow-xl transition-all duration-300">
+      <nav class="flex flex-col space-y-3 font-title text-base">
+        <a href="#hero-section" class="mobile-nav-link text-primary font-semibold py-1 border-b border-surface-container" onclick="closeMobileMenu()">Home</a>
+        <a href="#philosophy-section" class="mobile-nav-link text-on-surface-variant py-1 border-b border-surface-container" onclick="closeMobileMenu()">Our Story</a>
+        <a href="#signature-menu" class="mobile-nav-link text-on-surface-variant py-1 border-b border-surface-container" onclick="closeMobileMenu()">Menu</a>
+        <a href="#the-space" class="mobile-nav-link text-on-surface-variant py-1 border-b border-surface-container" onclick="closeMobileMenu()">The Space</a>
+        <a href="#gallery" class="mobile-nav-link text-on-surface-variant py-1 border-b border-surface-container" onclick="closeMobileMenu()">Gallery</a>
+        <a href="#visit-serentea" class="mobile-nav-link text-on-surface-variant py-1" onclick="closeMobileMenu()">Visit &amp; Contact</a>
+      </nav>
+      <div class="pt-2">
+        <button onclick="closeMobileMenu(); openReservationModal();" class="w-full py-2.5 bg-secondary text-surface text-center rounded font-label-md text-label-md uppercase tracking-wider font-semibold">
+          Find Your Table
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="w-full overflow-hidden">
+
+    <!-- ========================================== -->
+    <!-- SECTION 01: HERO SECTION                   -->
+    <!-- ========================================== -->
+    <section id="hero-section" class="relative w-full overflow-hidden bg-surface-bright min-h-[680px] lg:h-[88vh] lg:max-h-[820px] flex items-center pt-20 pb-12">
+      
+      <!-- Parallax Background Image with Gentle Depth -->
+      <div id="hero-bg" class="absolute inset-0 w-full h-[125%] -top-[12%] bg-cover bg-center will-change-transform" 
+           style="background-image: url('storefront.jpg'); transform: translate3d(0, 0, 0) scale(1.04);">
+      </div>
+      
+      <!-- Soft Editorial Warm Scrim for Maximum Legibility & Warmth -->
+      <div class="absolute inset-0 bg-gradient-to-r from-surface/95 via-surface/80 to-surface/30 sm:to-transparent backdrop-blur-[1px]"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-surface/40"></div>
+
+      <!-- Hero Main Content Grid -->
+      <div class="relative max-w-7xl mx-auto px-6 lg:px-12 w-full grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+        
+        <!-- Left Editorial Copy Column -->
+        <div class="lg:col-span-8 xl:col-span-7 space-y-space-md z-10">
+          
+          <!-- Category Chip -->
+          <div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded bg-primary-container/10 text-primary border border-primary/10">
+            <span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+            <span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-semibold">Artisanal Tea House &amp; Micro-Roastery</span>
+          </div>
+
+          <!-- Hero Headline -->
+          <div class="space-y-space-xs">
+            <span class="font-label-md text-label-md uppercase tracking-[0.25em] text-on-surface-variant block font-medium">Welcome to SERENTEA</span>
+            <h1 class="font-display text-4xl sm:text-5xl lg:text-display text-primary leading-[1.12] max-w-3xl font-normal">
+              A Little Pause in a <span class="italic font-normal text-secondary inline-block">Busy World.</span>
+            </h1>
+          </div>
+
+          <!-- Sub-paragraph -->
+          <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
+            Thoughtfully brewed tea, comforting coffee, and moments worth slowing down for. Unhurried sips crafted with single-origin harvests and stone-ground spices.
+          </p>
+
+          <!-- Call to Action Buttons -->
+          <div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+            <a href="#signature-menu" class="inline-flex items-center justify-center bg-primary-container text-surface px-space-lg py-space-sm rounded font-label-md text-label-md tracking-wider uppercase hover:bg-primary transition-all duration-300 shadow-sm hover:shadow-lg hover:-translate-y-0.5">
+              Explore Our Menu
+            </a>
+            <button onclick="openReservationModal()" class="inline-flex items-center justify-center bg-secondary text-surface px-space-lg py-space-sm rounded font-label-md text-label-md tracking-wider uppercase hover:bg-on-secondary-container transition-all duration-300 shadow-sm hover:shadow-lg hover:-translate-y-0.5">
+              Find Your Table
+            </button>
+          </div>
+
+          <!-- Operational Meta Info -->
+          <div class="pt-space-md flex flex-wrap items-center gap-x-space-md gap-y-2 font-body-sm text-body-sm text-on-surface-variant border-t border-primary/10">
+            <div class="flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-secondary text-[18px]">schedule</span>
+              <span>Hours: 08:30 AM — 10:30 PM</span>
+            </div>
+            <span class="text-outline-variant hidden sm:inline">•</span>
+            <div class="flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-secondary text-[18px]">location_on</span>
+              <span>18A Parasar Rd, Lake Market, Kolkata</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Subtle Bottom Scroll Down Indicator -->
+      <a href="#philosophy-section" class="absolute bottom-4 left-1/2 -translate-x-1/2 flex flex-col items-center text-on-surface-variant/60 hover:text-primary transition-colors duration-300">
+        <span class="font-label-sm text-[10px] uppercase tracking-widest">Scroll</span>
+        <span class="material-symbols-outlined text-[20px] animate-bounce mt-1">keyboard_arrow_down</span>
+      </a>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- SECTION 02: BRAND PHILOSOPHY               -->
+    <!-- ========================================== -->
+    <section id="philosophy-section" class="w-full bg-surface-container-low py-space-xl relative overflow-hidden border-t border-primary/5">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+          
+          <!-- Visual Column with Smooth Parallax Frame -->
+          <div class="lg:col-span-5 relative scroll-fade-up">
+            <div class="parallax-frame rounded-xl shadow-lg bg-surface-container-high aspect-[16/11] border border-primary/10 group overflow-hidden">
+              <img id="philosophy-img" 
+                   alt="SERENTEA Storefront and Mural" 
+                   class="parallax-img w-full h-[115%] object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105" 
+                   src="storefront.jpg">
+            </div>
+
+            <!-- Tactile Floating Badge -->
+            <div class="absolute -bottom-6 -right-3 sm:-right-6 bg-surface-container-lowest p-space-sm rounded-lg shadow-xl max-w-[210px] border border-primary/10 transition-transform duration-500 hover:-translate-y-1">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-primary text-[22px]">energy_savings_leaf</span>
+                <span class="font-label-sm text-label-sm uppercase tracking-wider font-semibold text-primary">Ethical Harvest</span>
+              </div>
+              <p class="font-body-sm text-xs text-on-surface-variant mt-1 leading-normal">Single-estate lots honoring regional masters.</p>
+            </div>
+          </div>
+
+          <!-- Editorial Content Column -->
+          <div class="lg:col-span-7 lg:pl-space-lg space-y-space-md mt-10 lg:mt-0">
+            <div class="space-y-space-xs scroll-fade-up">
+              <div class="flex items-center gap-space-xs">
+                <span class="accent-expand h-px bg-secondary"></span>
+                <span class="font-label-md text-label-md uppercase tracking-[0.2em] text-secondary font-semibold">Our Philosophy</span>
+              </div>
+              <h2 class="font-headline-lg text-3xl sm:text-headline-lg text-primary leading-tight">
+                More Than a Cup. <span class="italic font-normal">A Feeling.</span>
+              </h2>
+            </div>
+
+            <div class="space-y-space-sm font-body-lg text-body-lg text-on-surface-variant leading-relaxed scroll-fade-up">
+              <p>
+                Some moments deserve to be unhurried. At SERENTEA, every cup is an invitation to slow down, reconnect, and enjoy the little things. From your first morning sip to conversations that last a little longer, we make room for moments that matter.
+              </p>
+              <p class="font-body-md text-body-md text-on-surface">
+                Rooted in ancient eastern tea culture and modern micro-roastery precision, our sanctuary was built for readers, thinkers, and seekers of simple luxury.
+              </p>
+            </div>
+
+            <!-- Botanical Divider Line with Rotating Glyph on Scroll -->
+            <div class="flex items-center gap-space-sm py-space-xs scroll-fade-up">
+              <div class="h-px bg-outline-variant flex-1 opacity-50"></div>
+              <span class="material-symbols-outlined text-secondary text-[20px] flower-glyph">local_florist</span>
+              <div class="h-px bg-outline-variant flex-1 opacity-50"></div>
+            </div>
+
+            <div class="scroll-fade-up">
+              <a href="#signature-menu" class="inline-flex items-center gap-space-xs font-label-lg text-label-lg text-primary font-semibold hover:text-secondary transition-colors group">
+                <span>Discover Our Story</span>
+                <span class="material-symbols-outlined text-[18px] group-hover:translate-x-1.5 transition-transform duration-300">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- SECTION 03: SIGNATURE MENU                 -->
+    <!-- ========================================== -->
+    <section id="signature-menu" class="w-full bg-surface py-space-xl relative border-t border-primary/5">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 space-y-space-lg">
+        
+        <!-- Section Header -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md border-b border-primary/10 pb-6 scroll-fade-up">
+          <div class="space-y-space-xs max-w-2xl">
+            <span class="font-label-md text-label-md uppercase tracking-[0.2em] text-secondary font-semibold">Carefully Curated</span>
+            <h2 class="font-headline-lg text-3xl sm:text-headline-lg text-primary">Your Next Favourite, Brewed Here.</h2>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Crafted in small batches with single-origin estates, hand-picked botanicals, and stone-ground spices.
+            </p>
+          </div>
+          <div class="flex items-center gap-2">
+            <button onclick="openMenuPDFPreview()" class="inline-flex items-center gap-1.5 font-label-md text-label-md uppercase text-secondary hover:text-on-secondary-container font-semibold transition-colors group">
+              <span>View Full Menu (PDF)</span>
+              <span class="material-symbols-outlined text-[16px] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">arrow_outward</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="flex flex-wrap items-center gap-2 pt-space-xs scroll-fade-up" id="menu-filters">
+          <button class="menu-tab-btn active px-space-md py-1.5 rounded font-label-md text-label-md transition-all duration-300 bg-primary-container text-surface shadow-sm" data-filter="all">
+            All Offerings
+          </button>
+          <button class="menu-tab-btn px-space-md py-1.5 rounded font-label-md text-label-md transition-all duration-300 bg-surface-container text-on-surface hover:bg-surface-container-high" data-filter="tea">
+            Tea &amp; Chai
+          </button>
+          <button class="menu-tab-btn px-space-md py-1.5 rounded font-label-md text-label-md transition-all duration-300 bg-surface-container text-on-surface hover:bg-surface-container-high" data-filter="coffee">
+            Coffee
+          </button>
+          <button class="menu-tab-btn px-space-md py-1.5 rounded font-label-md text-label-md transition-all duration-300 bg-surface-container text-on-surface hover:bg-surface-container-high" data-filter="iced">
+            Iced &amp; Refreshing
+          </button>
+          <button class="menu-tab-btn px-space-md py-1.5 rounded font-label-md text-label-md transition-all duration-300 bg-surface-container text-on-surface hover:bg-surface-container-high" data-filter="bites">
+            Small Bites &amp; Desserts
+          </button>
+        </div>
+
+        <!-- Editorial Menu Grid with Card Elevations -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter pt-space-sm" id="menu-grid">
+          
+          <!-- Item 1: Masala Chai (Featured with Image) -->
+          <div class="menu-card tea bg-surface-container-lowest p-space-md rounded-xl shadow-sm border border-primary/10 card-elevate flex flex-col justify-between cursor-pointer scroll-fade-up" data-category="tea" onclick="openTastingDetails('Masala Chai')">
+            <div class="space-y-space-sm">
+              <div class="overflow-hidden rounded-lg aspect-[16/10] bg-surface-container-high relative group">
+                <img alt="Masala Chai" class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDv4zSZy_Pds5nmaUPPIWZB7ck7q9Lk2Gjm23chhoTxU6ft4iDQD8ToNSUUV9VQTW6CK3YMLc_ZNc2IQjy2UguN0L9xH_1-YV71g-ggBUPdXHQ-dOAgEAeq1UuxbG-_K5WqPlGsNa7xseYwST_x7_CSLioxvzUZJVLgv_pk2atRJF-IUNm70k80BOngkN-aUdsXJij2_heL-viins2GWO9k5R7AJMbAFGGJQIca4A">
+                <span class="absolute top-2 left-2 bg-primary-container text-surface px-2.5 py-0.5 rounded font-label-sm text-xs font-semibold shadow">House Icon</span>
+              </div>
+              <div class="flex items-baseline justify-between pt-1">
+                <h3 class="font-headline-sm text-headline-sm text-primary font-serif">Masala Chai</h3>
+                <span class="font-title text-title text-secondary font-semibold">₹180</span>
+              </div>
+              <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Slow-simmered whole green cardamom, crushed cinnamon, cloves, ginger, Assam CTC leaf, velvety whole milk.
+              </p>
+            </div>
+            <div class="pt-space-sm mt-3 border-t border-primary/10 flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant">
+              <span>Origins: Dibrugarh, Assam</span>
+              <span class="text-secondary font-semibold">Simmered 14m</span>
+            </div>
+          </div>
+
+          <!-- Item 2: Darjeeling First Flush -->
+          <div class="menu-card tea bg-surface-container-lowest p-space-md rounded-xl shadow-sm border border-primary/10 card-elevate flex flex-col justify-between cursor-pointer scroll-fade-up" data-category="tea" onclick="openTastingDetails('Darjeeling First Flush')">
+            <div class="space-y-space-sm">
+              <div class="p-4 rounded-lg bg-surface-container-low flex items-center justify-between">
+                <span class="material-symbols-outlined text-primary text-[32px]">emoji_food_beverage</span>
+                <span class="font-label-sm text-xs uppercase text-secondary font-semibold bg-secondary/10 px-2 py-0.5 rounded">Spring Flush</span>
+              </div>
+              <div class="flex items-baseline justify-between pt-1">
+                <h3 class="font-headline-sm text-headline-sm text-primary font-serif">Darjeeling First Flush</h3>
+                <span class="font-title text-title text-secondary font-semibold">₹240</span>
+              </div>
+              <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Handpicked muscatel spring harvest, delicate floral notes, champagne tone liquor, gentle lingering sweetness.
+              </p>
+            </div>
+            <div class="pt-space-sm mt-3 border-t border-primary/10 flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant">
+              <span>Makaibari Estate</span>
+              <span class="text-secondary font-semibold">Steep: 3m @ 85°C</span>
+            </div>
+          </div>
+
+          <!-- Item 3: Spanish Cortado -->
+          <div class="menu-card coffee bg-surface-container-lowest p-space-md rounded-xl shadow-sm border border-primary/10 card-elevate flex flex-col justify-between cursor-pointer scroll-fade-up" data-category="coffee" onclick="openTastingDetails('Spanish Cortado')">
+            <div class="space-y-space-sm">
+              <div class="p-4 rounded-lg bg-surface-container-low flex items-center justify-between">
+                <span class="material-symbols-outlined text-primary text-[32px]">coffee</span>
+                <span class="font-label-sm text-xs uppercase text-secondary font-semibold bg-secondary/10 px-2 py-0.5 rounded">Double Ristretto</span>
+              </div>
+              <div class="flex items-baseline justify-between pt-1">
+                <h3 class="font-headline-sm text-headline-sm text-primary font-serif">Spanish Cortado</h3>
+                <span class="font-title text-title text-secondary font-semibold">₹260</span>
+              </div>
+              <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Double ristretto extracted over sweet condensed milk, layered with silky textured micro-foam and nutmeg dust.
+              </p>
+            </div>
+            <div class="pt-space-sm mt-3 border-t border-primary/10 flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant">
+              <span>Coorg Estate Micro-Lot</span>
+              <span class="text-secondary font-semibold">1:1 Ratio</span>
+            </div>
+          </div>
+
+          <!-- Item 4: Ceremonial Iced Matcha -->
+          <div class="menu-card iced bg-surface-container-lowest p-space-md rounded-xl shadow-sm border border-primary/10 card-elevate flex flex-col justify-between cursor-pointer scroll-fade-up" data-category="iced" onclick="openTastingDetails('Ceremonial Iced Matcha')">
+            <div class="space-y-space-sm">
+              <div class="p-4 rounded-lg bg-surface-container-low flex items-center justify-between">
+                <span class="material-symbols-outlined text-primary text-[32px]">water_drop</span>
+                <span class="font-label-sm text-xs uppercase text-secondary font-semibold bg-secondary/10 px-2 py-0.5 rounded">Kyoto Uji</span>
+              </div>
+              <div class="flex items-baseline justify-between pt-1">
+                <h3 class="font-headline-sm text-headline-sm text-primary font-serif">Ceremonial Iced Matcha</h3>
+                <span class="font-title text-title text-secondary font-semibold">₹290</span>
+              </div>
+              <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Uji stone-ground ceremonial matcha whisked with bamboo chasen, served over chilled oat milk with pure wild agave.
+              </p>
+            </div>
+            <div class="pt-space-sm mt-3 border-t border-primary/10 flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant">
+              <span>First Harvest Leaves</span>
+              <span class="text-secondary font-semibold">Whisked Fresh</span>
+            </div>
+          </div>
+
+          <!-- Item 5: Classic Cappuccino -->
+          <div class="menu-card coffee bg-surface-container-lowest p-space-md rounded-xl shadow-sm border border-primary/10 card-elevate flex flex-col justify-between cursor-pointer scroll-fade-up" data-category="coffee" onclick="openTastingDetails('Classic Cappuccino')">
+            <div class="space-y-space-sm">
+              <div class="p-4 rounded-lg bg-surface-container-low flex items-center justify-between">
+                <span class="material-symbols-outlined text-primary text-[32px]">local_cafe</span>
+                <span class="font-label-sm text-xs uppercase text-secondary font-semibold bg-secondary/10 px-2 py-0.5 rounded">Single Origin</span>
+              </div>
+              <div class="flex items-baseline justify-between pt-1">
+                <h3 class="font-headline-sm text-headline-sm text-primary font-serif">Classic Cappuccino</h3>
+                <span class="font-title text-title text-secondary font-semibold">₹210</span>
+              </div>
+              <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Single-origin Chikmagalur arabica medium roast, pulling notes of dark cocoa and toasted hazelnut under velvety crema.
+              </p>
+            </div>
+            <div class="pt-space-sm mt-3 border-t border-primary/10 flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant">
+              <span>Baba Budangiri Hills</span>
+              <span class="text-secondary font-semibold">Double Shot</span>
+            </div>
+          </div>
+
+          <!-- Item 6: Chocolate Babka Croissant -->
+          <div class="menu-card bites bg-surface-container-lowest p-space-md rounded-xl shadow-sm border border-primary/10 card-elevate flex flex-col justify-between cursor-pointer scroll-fade-up" data-category="bites" onclick="openTastingDetails('Chocolate Babka Croissant')">
+            <div class="space-y-space-sm">
+              <div class="p-4 rounded-lg bg-surface-container-low flex items-center justify-between">
+                <span class="material-symbols-outlined text-primary text-[32px]">bakery_dining</span>
+                <span class="font-label-sm text-xs uppercase text-secondary font-semibold bg-secondary/10 px-2 py-0.5 rounded">Boulangerie</span>
+              </div>
+              <div class="flex items-baseline justify-between pt-1">
+                <h3 class="font-headline-sm text-headline-sm text-primary font-serif">Chocolate Babka Croissant</h3>
+                <span class="font-title text-title text-secondary font-semibold">₹220</span>
+              </div>
+              <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Flaky laminated butter pastry swirled with 70% single-origin Belgian dark chocolate ganache and sea salt flakes.
+              </p>
+            </div>
+            <div class="pt-space-sm mt-3 border-t border-primary/10 flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant">
+              <span>Baked Fresh Daily</span>
+              <span class="text-secondary font-semibold">Limited Batch</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- SECTION 04: THE SANCTUARY (THE SPACE)      -->
+    <!-- ========================================== -->
+    <section id="the-space" class="w-full bg-surface-container-low py-space-xl border-t border-primary/5">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 space-y-space-lg">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+          
+          <!-- Left Text Details -->
+          <div class="lg:col-span-5 space-y-space-md">
+            <div class="space-y-space-xs scroll-fade-up">
+              <span class="font-label-md text-label-md uppercase tracking-[0.2em] text-secondary font-semibold">The Sanctuary</span>
+              <h2 class="font-headline-lg text-3xl sm:text-headline-lg text-primary">
+                Come for the Coffee. <span class="italic font-normal">Stay for the Feeling.</span>
+              </h2>
+            </div>
+            
+            <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed scroll-fade-up">
+              Designed as a sanctuary from the bustling city outside. Sunlit corners with natural oak tables, linen drapes, tactile lime-washed walls, and quiet alcoves for reading, working, or heartfelt conversations.
+            </p>
+
+            <div class="grid grid-cols-2 gap-space-sm pt-space-xs scroll-fade-up">
+              <div class="p-space-sm bg-surface-container-lowest rounded-lg shadow-sm border border-primary/10 hover:shadow-md transition-shadow">
+                <span class="font-title text-title text-primary block font-semibold">Sunlit Bay Windows</span>
+                <span class="font-body-sm text-body-sm text-on-surface-variant">Natural light for reading</span>
+              </div>
+              <div class="p-space-sm bg-surface-container-lowest rounded-lg shadow-sm border border-primary/10 hover:shadow-md transition-shadow">
+                <span class="font-title text-title text-primary block font-semibold">Quiet Work Nooks</span>
+                <span class="font-body-sm text-body-sm text-on-surface-variant">Discreet power &amp; calm</span>
+              </div>
+            </div>
+
+            <div class="scroll-fade-up">
+              <a href="#visit-serentea" class="inline-flex items-center gap-2 font-label-lg text-label-lg text-primary hover:text-secondary font-semibold transition-colors group">
+                <span>Explore the Space &amp; Seating</span>
+                <span class="material-symbols-outlined text-[18px] group-hover:translate-x-1.5 transition-transform duration-300">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Large Interior Photograph with Parallax Frame -->
+          <div class="lg:col-span-7 scroll-fade-up">
+            <div class="parallax-frame rounded-2xl shadow-xl aspect-[16/11] bg-surface-container-high border border-primary/10 group">
+              <img id="sanctuary-img"
+                   alt="The SERENTEA Sanctuary Interior" 
+                   class="parallax-img w-full h-[115%] object-cover transition-transform duration-700 ease-out group-hover:scale-105" 
+                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzok0rJsd7wbAdLa4zdDc9hjMp--2ySkBbEh6mrdw4MHGQSZh6Bp0dYDf0kVWbt2ERVbAh5_jBiVA6Cw4UV-Fi7ewnhxTkXGmUQ5Qbc5Vd0afy7qpSKQ9QZcxwWyxc0tKUaaigLHbfOyvQK-HL46HsOWtbc1EQcf7fLd-ItjpBSQnI8X_rTq1UpPl2I_k9cCJw_cyY3LO8_UBKD2uD4khOoPxA3-DzDIFXgslELA">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- SECTION 05: GALLERY (LIFE AT SERENTEA)     -->
+    <!-- ========================================== -->
+    <section id="gallery" class="w-full bg-surface-container-low py-space-xl border-t border-primary/5">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 space-y-space-lg">
+        
+        <!-- Header -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md border-b border-primary/10 pb-6 scroll-fade-up">
+          <div class="space-y-space-xs">
+            <span class="font-label-md text-label-md uppercase tracking-[0.25em] text-secondary font-semibold">Captured Moments</span>
+            <h2 class="font-headline-lg text-3xl sm:text-headline-lg text-primary">Life at SERENTEA</h2>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Handcrafted stoneware, morning shadows across worn timber, and candid smiles.
+            </p>
+          </div>
+          
+          <div class="flex items-center gap-3">
+            <span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">@serenteacafe</span>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-space-md py-1.5 rounded bg-primary-container text-surface hover:bg-primary font-label-sm text-label-sm uppercase tracking-wider transition-all duration-300 shadow-sm hover:shadow">
+              <span>Follow on Instagram</span>
+              <span class="material-symbols-outlined text-[16px]">north_east</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Masonry Grid with Lightbox Interaction -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-gutter" id="gallery-grid">
+          
+          <!-- Image 1 (Large 2-col) -->
+          <div class="md:col-span-2 overflow-hidden rounded-xl shadow-sm aspect-[4/3] bg-surface-container-high border border-primary/10 group cursor-pointer relative scroll-fade-up" onclick="openLightbox('https://lh3.googleusercontent.com/aida-public/AB6AXuCfK9nfsLr0m2og1jID8HMyoX1rk3-4zrIsiTXy7eAYXEdpvXrpP5s8mGhQl7dqBmav_eiiXQCBhwDuBB5SDBi3BI9nRVSD2qVwC6vj8WqJxSCH75RZis-3M972MDwEkL3EWpTEeLuvG8wLDjmjsmvloVRFmELsi9fZ5oTemoQtM_S3v64CkAC_rDjZqamK-0UB2Y85X_wz41ze64_3AtmI93lnV4K9F7WpbmHgQw', 'Handcrafted Tea Ceremony', 'Pouring amber first-flush tea into handcrafted ceramic cup in morning light.')">
+            <img alt="Handcrafted Tea Ceremony" 
+                 class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" 
+                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfK9nfsLr0m2og1jID8HMyoX1rk3-4zrIsiTXy7eAYXEdpvXrpP5s8mGhQl7dqBmav_eiiXQCBhwDuBB5SDBi3BI9nRVSD2qVwC6vj8WqJxSCH75RZis-3M972MDwEkL3EWpTEeLuvG8wLDjmjsmvloVRFmELsi9fZ5oTemoQtM_S3v64CkAC_rDjZqamK-0UB2Y85X_wz41ze64_3AtmI93lnV4K9F7WpbmHgQw">
+            <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-surface">
+              <span class="material-symbols-outlined text-3xl">zoom_in</span>
+            </div>
+          </div>
+
+          <!-- Image 2 -->
+          <div class="overflow-hidden rounded-xl shadow-sm aspect-square bg-surface-container-high border border-primary/10 group cursor-pointer relative scroll-fade-up" onclick="openLightbox('https://lh3.googleusercontent.com/aida-public/AB6AXuA7buJda1Ubn5_L2CYR6JIzBWrpFYavbj3OB1mTVI7-if_e0t1lm7KPTItgY4CXm39MR14hhbCpEFD1AJqKlLKcVek3j_27-kwUotUyx2MYNGz1gAqZzNUQmLHqH2kndxorwh5DoWyETZrN0b8MHRoVJDO1v2nezRP48nU2CfpP-rbdPMQOUou1f4yK0QL9ptxSKP-f0mDjv4PDnAqP1n33ZFB7v54HvHJqumvuxA', 'Fresh Morning Pastries', 'Golden laminated cinnamon and cardamom morning rolls on linen tea towels.')">
+            <img alt="Fresh Morning Pastries" 
+                 class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" 
+                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7buJda1Ubn5_L2CYR6JIzBWrpFYavbj3OB1mTVI7-if_e0t1lm7KPTItgY4CXm39MR14hhbCpEFD1AJqKlLKcVek3j_27-kwUotUyx2MYNGz1gAqZzNUQmLHqH2kndxorwh5DoWyETZrN0b8MHRoVJDO1v2nezRP48nU2CfpP-rbdPMQOUou1f4yK0QL9ptxSKP-f0mDjv4PDnAqP1n33ZFB7v54HvHJqumvuxA">
+            <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-surface">
+              <span class="material-symbols-outlined text-3xl">zoom_in</span>
+            </div>
+          </div>
+
+          <!-- Image 3 -->
+          <div class="overflow-hidden rounded-xl shadow-sm aspect-square bg-surface-container-high border border-primary/10 group cursor-pointer relative scroll-fade-up" onclick="openLightbox('https://lh3.googleusercontent.com/aida-public/AB6AXuAEPFlyUi2XVYrQmlykqwNFVR0UcM5OFs-oR2FQnCsETlHcTdg7FmQyaYh2fSjE-QIa1BBBUJPezGFQSrlAv9nO6JTB3Y4msWnzbJ2Zr4T5Aa33Bjt3p22uYyQlcoMHwF7PfsyBvkBMaOmVHv1GMtd0yFlNCyexhmJV8DSgBlh9wIFr266qp-Kvv8yp-qpp6Uro6Fd_ZSDdZSK6_tlpPLgeXebqlwcQZPlWVRrNYw', 'Single Origin Pour Over', 'Hand drip extraction over Japanese ceramic cone.')">
+            <img alt="Single Origin Pour Over" 
+                 class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" 
+                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEPFlyUi2XVYrQmlykqwNFVR0UcM5OFs-oR2FQnCsETlHcTdg7FmQyaYh2fSjE-QIa1BBBUJPezGFQSrlAv9nO6JTB3Y4msWnzbJ2Zr4T5Aa33Bjt3p22uYyQlcoMHwF7PfsyBvkBMaOmVHv1GMtd0yFlNCyexhmJV8DSgBlh9wIFr266qp-Kvv8yp-qpp6Uro6Fd_ZSDdZSK6_tlpPLgeXebqlwcQZPlWVRrNYw">
+            <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-surface">
+              <span class="material-symbols-outlined text-3xl">zoom_in</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- SECTION 06: CUSTOMER TESTIMONIALS          -->
+    <!-- ========================================== -->
+    <section class="w-full bg-surface py-space-xl border-t border-primary/5">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 space-y-space-lg">
+        
+        <!-- Header -->
+        <div class="text-center max-w-xl mx-auto space-y-space-xs scroll-fade-up">
+          <span class="font-label-md text-label-md uppercase tracking-[0.25em] text-secondary font-semibold">Kind Words</span>
+          <h2 class="font-headline-lg text-3xl sm:text-headline-lg text-primary">A Place People Return To.</h2>
+        </div>
+
+        <!-- 3 Cards matching screen.png -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter" id="testimonials-grid">
+          
+          <!-- Quote 1 -->
+          <div class="testimonial-card p-space-lg bg-surface-container-lowest rounded-xl shadow-sm border border-primary/10 flex flex-col justify-between space-y-space-md card-elevate scroll-fade-up">
+            <div class="space-y-space-sm">
+              <span class="font-display text-4xl text-secondary/40 block leading-none font-serif">“</span>
+              <p class="font-body-md text-body-md text-on-surface leading-relaxed italic">
+                The rare café that values silence as much as conversation. Their Darjeeling first flush is the most mindful hour of my week.
+              </p>
+            </div>
+            <div class="pt-space-xs border-t border-primary/10">
+              <h4 class="font-title text-title text-primary">Ananya R.</h4>
+              <span class="font-body-sm text-body-sm text-on-surface-variant">Architect &amp; Urban Planner</span>
+            </div>
+          </div>
+
+          <!-- Quote 2 -->
+          <div class="testimonial-card p-space-lg bg-surface-container-lowest rounded-xl shadow-sm border border-primary/10 flex flex-col justify-between space-y-space-md card-elevate scroll-fade-up">
+            <div class="space-y-space-sm">
+              <span class="font-display text-4xl text-secondary/40 block leading-none font-serif">“</span>
+              <p class="font-body-md text-body-md text-on-surface leading-relaxed italic">
+                Stepping through that green doorway off Parasar Road feels like stepping out of Kolkata's cacophony and into an intimate, tranquil sanctuary.
+              </p>
+            </div>
+            <div class="pt-space-xs border-t border-primary/10">
+              <h4 class="font-title text-title text-primary">Kabir M.</h4>
+              <span class="font-body-sm text-body-sm text-on-surface-variant">Writer &amp; Bibliophile</span>
+            </div>
+          </div>
+
+          <!-- Quote 3 -->
+          <div class="testimonial-card p-space-lg bg-surface-container-lowest rounded-xl shadow-sm border border-primary/10 flex flex-col justify-between space-y-space-md card-elevate scroll-fade-up">
+            <div class="space-y-space-sm">
+              <span class="font-display text-4xl text-secondary/40 block leading-none font-serif">“</span>
+              <p class="font-body-md text-body-md text-on-surface leading-relaxed italic">
+                The spiced masala chai tastes exactly how tea made with love should taste. Unpretentious, soulful, and unforgettable.
+              </p>
+            </div>
+            <div class="pt-space-xs border-t border-primary/10">
+              <h4 class="font-title text-title text-primary">Dr. Priya S.</h4>
+              <span class="font-body-sm text-body-sm text-on-surface-variant">Botanical Researcher</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- SECTION 07: VISIT SERENTEA                 -->
+    <!-- ========================================== -->
+    <section id="visit-serentea" class="w-full bg-surface-container-low py-space-xl border-t border-primary/5">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+          
+          <!-- Details Column -->
+          <div class="lg:col-span-6 space-y-space-md">
+            <div class="space-y-space-xs scroll-fade-up">
+              <span class="font-label-md text-label-md uppercase tracking-[0.2em] text-secondary font-semibold">Join Us In Person</span>
+              <h2 class="font-headline-lg text-3xl sm:text-headline-lg text-primary">Your Table Is Waiting.</h2>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Walk-ins are warmly greeted. For quiet corner seating, group tastings, or private study tables, feel free to drop a reservation inquiry.
+              </p>
+            </div>
+
+            <!-- Details Card matching screen.png -->
+            <div class="space-y-space-sm bg-surface-container-lowest p-space-md rounded-xl shadow-sm border border-primary/10 scroll-fade-up">
+              <div class="flex items-start gap-space-sm">
+                <span class="material-symbols-outlined text-secondary text-[24px] mt-0.5">pin_drop</span>
+                <div>
+                  <h4 class="font-title text-title text-primary">Our Sanctuary</h4>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant">
+                    18A, Parasar Rd, Lake Market, Kalighat, Kolkata, West Bengal 700029
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-space-sm pt-2 border-t border-primary/5">
+                <span class="material-symbols-outlined text-secondary text-[24px] mt-0.5">schedule</span>
+                <div>
+                  <h4 class="font-title text-title text-primary">Operating Hours</h4>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant">
+                    Monday – Thursday: 8:30 AM – 10:00 PM<br>
+                    Friday – Sunday: 8:00 AM – 11:00 PM
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-space-sm pt-2 border-t border-primary/5">
+                <span class="material-symbols-outlined text-secondary text-[24px] mt-0.5">call</span>
+                <div>
+                  <h4 class="font-title text-title text-primary">Direct Line &amp; Contact</h4>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant">
+                    +91 98300 45678 • hello@serenteacafe.in
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- CTAs -->
+            <div class="flex flex-wrap items-center gap-space-sm pt-space-xs scroll-fade-up">
+              <a href="https://maps.google.com/?q=18A+Parasar+Rd+Lake+Market+Kalighat+Kolkata+West+Bengal+700029" rel="noopener" target="_blank" class="inline-flex items-center gap-2 bg-primary-container text-surface px-space-md py-space-sm rounded font-label-md text-label-md uppercase tracking-wider hover:bg-primary transition-all duration-300 shadow-sm hover:shadow">
+                <span>Get Directions (Google Maps)</span>
+                <span class="material-symbols-outlined text-[16px]">north_east</span>
+              </a>
+              <button onclick="openReservationModal()" class="inline-flex items-center gap-2 bg-secondary text-surface px-space-md py-space-sm rounded font-label-md text-label-md uppercase tracking-wider hover:bg-on-secondary-container transition-all duration-300 shadow-sm hover:shadow">
+                <span>Reserve a Table / Inquiry</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Storefront Visual Column with Parallax Frame -->
+          <div class="lg:col-span-6 mt-10 lg:mt-0 scroll-fade-up">
+            <div class="parallax-frame relative overflow-hidden rounded-2xl shadow-xl aspect-[16/10] bg-surface-container-high border border-primary/10 group">
+              <img id="visit-img"
+                   alt="SERENTEA Storefront" 
+                   class="parallax-img w-full h-[115%] object-cover transition-transform duration-700 ease-out group-hover:scale-105" 
+                   src="storefront.jpg">
+              
+              <!-- Badge matching screen.png -->
+              <div class="absolute bottom-4 left-4 bg-surface/92 backdrop-blur-md px-4 py-2 rounded-lg text-primary shadow-md border border-primary/10">
+                <span class="font-label-sm text-label-sm font-semibold uppercase tracking-wider block text-secondary">Lake Market Sanctuary</span>
+                <span class="font-body-sm text-body-sm font-medium">18A Parasar Road, Kalighat, Kolkata</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- SECTION 08: FINAL CALL TO ACTION           -->
+    <!-- ========================================== -->
+    <section class="w-full bg-[#10271d] text-surface py-24 text-center relative overflow-hidden">
+      <!-- Radiant Gradient Vignette -->
+      <div class="absolute inset-0 bg-radial from-emerald-900/30 via-transparent to-transparent pointer-events-none"></div>
+
+      <div class="max-w-4xl mx-auto px-6 lg:px-12 space-y-space-md relative z-10 scroll-fade-up">
+        <div class="inline-flex items-center gap-2 px-space-sm py-1 rounded bg-primary-fixed/20 text-primary-fixed border border-primary-fixed/20">
+          <span class="material-symbols-outlined text-[16px]">local_cafe</span>
+          <span class="font-label-sm text-label-sm uppercase tracking-widest font-semibold">A Seat For You</span>
+        </div>
+
+        <h2 class="font-display text-4xl sm:text-display text-surface leading-tight max-w-2xl mx-auto font-serif">
+          Take a Moment. <span class="italic font-normal text-secondary-fixed">Make It Yours.</span>
+        </h2>
+
+        <p class="font-body-lg text-body-lg text-on-primary-container max-w-xl mx-auto leading-relaxed">
+          Your next favourite corner might be just around the corner. Step inside and let the scent of roasted leaves welcome you home.
+        </p>
+
+        <div class="pt-space-xs">
+          <button onclick="openReservationModal()" class="inline-flex items-center justify-center bg-secondary text-surface px-space-xl py-space-sm rounded font-label-lg text-label-lg tracking-wider uppercase hover:bg-on-secondary-container transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-0.5">
+            Visit SERENTEA Today
+          </button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- SECTION 09: REFINED UPPER FOOTER           -->
+    <!-- ========================================== -->
+    <section class="w-full bg-surface-container py-space-xl border-t border-primary/5">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 space-y-space-lg">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter pb-space-md">
+          
+          <!-- Logo & Mission Column -->
+          <div class="md:col-span-5 space-y-space-sm">
+            <div class="flex items-center gap-space-sm">
+              <img src="logo.png" alt="SERENTEA Logo" class="w-12 h-12 rounded-full object-contain p-0.5 border border-primary/20 shadow-sm bg-surface-container-lowest">
+              <div class="flex flex-col">
+                <span class="font-headline-sm text-headline-sm text-primary tracking-tight font-serif leading-none">SERENTEA</span>
+                <span class="font-label-sm text-[10.5px] uppercase tracking-[0.22em] text-secondary font-semibold mt-1">Calm the Cacophony</span>
+              </div>
+            </div>
+            <p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm leading-relaxed">
+              Honoring slower brewing rituals, single-estate tea flushes, and micro-lot coffees in a quiet sanctuary built for genuine pause off Parasar Road, Lake Market.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="md:col-span-3 space-y-space-xs">
+            <h4 class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">Sanctuary Pages</h4>
+            <ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface-variant">
+              <li><a class="hover:text-secondary transition-colors" href="#signature-menu">Artisanal Menu</a></li>
+              <li><a class="hover:text-secondary transition-colors" href="#philosophy-section">Our Brewing Philosophy</a></li>
+              <li><a class="hover:text-secondary transition-colors" href="#visit-serentea">Find Your Table</a></li>
+              <li><a class="hover:text-secondary transition-colors" href="#visit-serentea">Private Tea Ceremonies</a></li>
+            </ul>
+          </div>
+
+          <!-- Newsletter Signup -->
+          <div class="md:col-span-4 space-y-space-xs">
+            <h4 class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">Seasonal Harvest Dispatches</h4>
+            <p class="font-body-sm text-body-sm text-on-surface-variant">
+              Subscribe for early notices on micro-lot flushes, rare puerh arrivals, and Sunday poetry sessions.
+            </p>
+            <form class="flex gap-2 pt-1" onsubmit="event.preventDefault(); showToast('Thank you for joining our circle.'); this.reset();">
+              <input class="w-full px-space-sm py-2 rounded bg-surface-container-lowest text-on-surface font-body-sm text-body-sm placeholder:text-outline border border-primary/10 focus:outline-none focus:ring-1 focus:ring-primary shadow-sm" placeholder="Your email address" required type="email">
+              <button class="bg-primary text-surface px-space-sm py-2 rounded font-label-sm text-label-sm uppercase tracking-wider font-semibold hover:bg-primary-container transition-colors whitespace-nowrap shadow-sm" type="submit">
+                Join Circle
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- SECTION 10: LOWER FOOTER BAR               -->
+    <!-- ========================================== -->
+    <footer class="w-full bg-surface-container-low border-t border-primary/10">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 py-space-xl">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-gutter mb-space-lg">
+          
+          <div class="md:col-span-2 space-y-space-sm">
+            <div class="flex items-center gap-space-xs">
+              <img src="logo.png" alt="SERENTEA" class="w-8 h-8 rounded-full object-contain border border-primary/20 shadow-sm bg-surface-container-lowest mr-1">
+              <span class="font-headline-sm text-headline-sm text-primary font-serif">SERENTEA</span>
+              <span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">— Lake Market, Kolkata</span>
+            </div>
+            <p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+              A boutique botanical sanctuary celebrating rare harvests, hand-rolled loose leaf teas, slow-pressed micro-lot roasts, and quiet lingering contemplation.
+            </p>
+          </div>
+
+          <div class="space-y-space-xs">
+            <h4 class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-semibold">Salon Hours</h4>
+            <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Tuesday – Sunday<br>
+              8:00 AM – 7:30 PM<br>
+              <span class="italic font-headline-sm text-body-sm text-on-surface-variant">Mondays reserved for quiet curation</span>
+            </p>
+          </div>
+
+          <div class="space-y-space-xs">
+            <h4 class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-semibold">Sanctuary Location</h4>
+            <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              18A, Parasar Rd<br>
+              Lake Market, Kalighat<br>
+              Kolkata, West Bengal 700029<br>
+              hello@serenteacafe.in
+            </p>
+          </div>
+
+        </div>
+
+        <div class="pt-space-md border-t border-primary/10 flex flex-col md:flex-row items-center justify-between gap-space-sm">
+          <span class="font-label-sm text-label-sm text-on-surface-variant">© 2025 SERENTEA Artisanal Tea &amp; Coffee Roasters. All rights reserved.</span>
+          <div class="flex items-center gap-space-md">
+            <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#philosophy-section">Ethical Sourcing</a>
+            <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#visit-serentea">Private Ceremonies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+
+  <!-- ========================================== -->
+  <!-- FLOATING BOTTOM CONTROLS                   -->
+  <!-- ========================================== -->
+  <div id="floating-controls" class="fixed bottom-6 right-6 z-40 flex items-center gap-3 transition-all duration-400 opacity-0 translate-y-6 pointer-events-none">
+    
+    <!-- Quick Reserve Pill -->
+    <button onclick="openReservationModal()" class="flex items-center gap-2 bg-secondary text-surface px-4 py-2.5 rounded-full shadow-xl hover:bg-on-secondary-container hover:shadow-2xl transition-all duration-300 pointer-events-auto">
+      <span class="material-symbols-outlined text-[18px]">calendar_today</span>
+      <span class="font-label-md text-xs uppercase tracking-wider font-semibold">Reserve Table</span>
+    </button>
+
+    <!-- Back to Top Button -->
+    <button onclick="scrollToTop()" class="w-11 h-11 rounded-full bg-primary text-surface shadow-xl flex items-center justify-center hover:bg-primary-container transition-all duration-300 pointer-events-auto group" title="Return to Top" aria-label="Return to Top">
+      <span class="material-symbols-outlined text-[20px] group-hover:-translate-y-0.5 transition-transform">arrow_upward</span>
+    </button>
+
+  </div>
+
+
+  <!-- ========================================== -->
+  <!-- MODAL 01: RESERVATION DIALOG               -->
+  <!-- ========================================== -->
+  <div id="reservation-dialog" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-primary/60 backdrop-blur-sm transition-opacity duration-300">
+    <div class="bg-surface-container-lowest max-w-lg w-full rounded-2xl p-space-lg shadow-2xl space-y-space-md relative border border-primary/10 transform transition-transform duration-300" id="reservation-card">
+      
+      <div class="flex items-center justify-between border-b border-primary/10 pb-3">
+        <div class="flex items-center gap-3">
+          <img src="logo.png" alt="SERENTEA" class="w-10 h-10 rounded-full object-contain border border-primary/15 shadow-sm">
+          <div>
+            <span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">Table Inquiries • Lake Market</span>
+            <h3 class="font-headline-sm text-headline-sm text-primary font-serif">Hold Your Moment</h3>
+          </div>
+        </div>
+        <button class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" onclick="closeReservationModal()">
+          <span class="material-symbols-outlined text-[20px]">close</span>
+        </button>
+      </div>
+
+      <form class="space-y-space-sm font-body-sm text-body-sm" onsubmit="handleReservationSubmit(event)">
+        <div class="space-y-1">
+          <label class="font-label-sm text-label-sm text-on-surface font-medium block">Full Name</label>
+          <input class="w-full px-space-sm py-2 rounded bg-surface-container-low text-on-surface border border-outline-variant/40 focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" placeholder="e.g. Maya Sharma" required type="text">
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div class="space-y-1">
+            <label class="font-label-sm text-label-sm text-on-surface font-medium block">Preferred Date</label>
+            <input class="w-full px-space-sm py-2 rounded bg-surface-container-low text-on-surface border border-outline-variant/40 focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" required type="date" id="res-date">
+          </div>
+          <div class="space-y-1">
+            <label class="font-label-sm text-label-sm text-on-surface font-medium block">Time Slot</label>
+            <select class="w-full px-space-sm py-2 rounded bg-surface-container-low text-on-surface border border-outline-variant/40 focus:outline-none focus:ring-1 focus:ring-primary shadow-inner">
+              <option>10:00 AM (Quiet Morning)</option>
+              <option>02:30 PM (Afternoon Tea)</option>
+              <option>05:00 PM (Sunset Warmth)</option>
+              <option>08:00 PM (Evening Glow)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div class="space-y-1">
+            <label class="font-label-sm text-label-sm text-on-surface font-medium block">Party Size</label>
+            <select class="w-full px-space-sm py-2 rounded bg-surface-container-low text-on-surface border border-outline-variant/40 focus:outline-none focus:ring-1 focus:ring-primary shadow-inner">
+              <option>1 Person (Solitude / Reading)</option>
+              <option selected>2 Guests</option>
+              <option>3–4 Guests</option>
+              <option>5+ Guests (Private Alcove)</option>
+            </select>
+          </div>
+          <div class="space-y-1">
+            <label class="font-label-sm text-label-sm text-on-surface font-medium block">Seating Preference</label>
+            <select class="w-full px-space-sm py-2 rounded bg-surface-container-low text-on-surface border border-outline-variant/40 focus:outline-none focus:ring-1 focus:ring-primary shadow-inner">
+              <option>Bay Window Light</option>
+              <option>Quiet Reading Corner</option>
+              <option>Outdoor Wicker Stools</option>
+              <option>Standard Table</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="space-y-1">
+          <label class="font-label-sm text-label-sm text-on-surface font-medium block">Notes &amp; Inquiries</label>
+          <textarea class="w-full px-space-sm py-2 rounded bg-surface-container-low text-on-surface border border-outline-variant/40 focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" placeholder="Special flush request, anniversary, dietary preferences..." rows="2"></textarea>
+        </div>
+
+        <div class="pt-3">
+          <button class="w-full py-2.5 bg-primary-container text-surface rounded font-label-md text-label-md uppercase tracking-wider hover:bg-primary transition-all duration-300 shadow" type="submit">
+            Confirm Table Request
+          </button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+
+  <!-- ========================================== -->
+  <!-- MODAL 02: TASTING DETAIL PROFILE SHEET     -->
+  <!-- ========================================== -->
+  <div id="tasting-dialog" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-primary/60 backdrop-blur-sm transition-opacity duration-300">
+    <div class="bg-surface-container-lowest max-w-md w-full rounded-2xl p-space-lg shadow-2xl space-y-4 relative border border-primary/10">
+      
+      <div class="flex items-center justify-between border-b border-primary/10 pb-3">
+        <div>
+          <span class="font-label-sm text-xs uppercase tracking-wider text-secondary font-semibold" id="tasting-badge">Curator Notes</span>
+          <h3 class="font-headline-sm text-2xl text-primary font-serif" id="tasting-title">Darjeeling First Flush</h3>
+        </div>
+        <button class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface" onclick="closeTastingModal()">
+          <span class="material-symbols-outlined text-[20px]">close</span>
+        </button>
+      </div>
+
+      <div class="space-y-3 font-body-sm text-on-surface-variant text-sm">
+        <p id="tasting-desc" class="leading-relaxed">
+          Detailed profile of single-origin cultivation, steeping ritual, and pairing suggestions.
+        </p>
+
+        <div class="bg-surface-container-low p-3.5 rounded-lg space-y-2 border border-primary/5">
+          <div class="flex justify-between">
+            <span class="text-on-surface font-medium">Terroir &amp; Origin:</span>
+            <span class="text-secondary font-semibold" id="tasting-origin">Makaibari Estate</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-on-surface font-medium">Brewing Temperature:</span>
+            <span class="text-primary font-medium" id="tasting-temp">85°C</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-on-surface font-medium">Steeping Duration:</span>
+            <span class="text-primary font-medium" id="tasting-steep">180s Unhurried</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-on-surface font-medium">Tasting Notes:</span>
+            <span class="text-primary font-medium" id="tasting-notes">Muscatel, Apricot Blossom</span>
+          </div>
+        </div>
+
+        <div class="pt-2 flex justify-between items-center">
+          <span class="text-lg font-title font-semibold text-secondary" id="tasting-price">₹240</span>
+          <button onclick="closeTastingModal(); openReservationModal();" class="px-4 py-2 bg-primary text-surface rounded text-xs uppercase tracking-wider font-semibold hover:bg-primary-container transition-colors">
+            Reserve For Table
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- ========================================== -->
+  <!-- MODAL 03: FULLSCREEN IMAGE LIGHTBOX        -->
+  <!-- ========================================== -->
+  <div id="lightbox-dialog" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-primary/90 backdrop-blur-md transition-opacity duration-300" onclick="closeLightbox()">
+    <div class="relative max-w-4xl w-full flex flex-col items-center" onclick="event.stopPropagation()">
+      <button class="absolute -top-12 right-0 w-9 h-9 rounded-full bg-surface/20 hover:bg-surface/40 text-surface flex items-center justify-center transition-colors" onclick="closeLightbox()">
+        <span class="material-symbols-outlined text-[24px]">close</span>
+      </button>
+      <img id="lightbox-img" class="max-h-[80vh] w-auto rounded-xl shadow-2xl object-contain border border-surface/20" src="" alt="Gallery Preview">
+      <div class="mt-4 text-center">
+        <h4 id="lightbox-title" class="font-headline-sm text-xl text-surface font-serif">Title</h4>
+        <p id="lightbox-caption" class="text-xs text-surface/70 mt-1 max-w-lg">Caption</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ========================================== -->
+  <!-- TOAST NOTIFICATION                         -->
+  <!-- ========================================== -->
+  <div id="toast" class="fixed top-24 right-6 z-50 bg-primary text-surface px-5 py-3 rounded-xl shadow-2xl border border-primary-fixed/20 transform translate-x-32 opacity-0 pointer-events-none transition-all duration-300 flex items-center gap-2 font-body-sm text-sm">
+    <span class="material-symbols-outlined text-secondary-fixed text-[20px]">check_circle</span>
+    <span id="toast-message">Message</span>
+  </div>
+
+
+  <!-- ========================================== -->
+  <!-- SCRIPTS: LENIS, INTERSECTION SCROLL & UX   -->
+  <!-- ========================================== -->
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+
+  <script>
+    // Set default date for reservation to tomorrow
+    const tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    const dateInput = document.getElementById('res-date');
+    if (dateInput) {
+      dateInput.value = tomorrow.toISOString().split('T')[0];
+    }
+
+    /* ----------------------------------------------------------------
+       1. LENIS SMOOTH MOMENTUM SCROLL INITIALIZATION
+    ---------------------------------------------------------------- */
+    let lenis;
+    try {
+      if (typeof Lenis !== 'undefined') {
+        lenis = new Lenis({
+          duration: 1.2,
+          easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+          smoothWheel: true,
+          wheelMultiplier: 1.0,
+          touchMultiplier: 1.2,
+          infinite: false
+        });
+
+        function raf(time) {
+          lenis.raf(time);
+          requestAnimationFrame(raf);
+        }
+        requestAnimationFrame(raf);
+      }
+    } catch (err) {
+      console.warn('Lenis smooth scroll fallback:', err);
+    }
+
+    function scrollToTop() {
+      if (lenis) {
+        lenis.scrollTo(0, { duration: 1.2 });
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }
+
+    // Smooth anchor navigation with Lenis
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const href = this.getAttribute('href');
+        if (href && href !== '#' && href.startsWith('#')) {
+          const targetEl = document.querySelector(href);
+          if (targetEl) {
+            e.preventDefault();
+            if (lenis) {
+              lenis.scrollTo(targetEl, { offset: -60, duration: 1.1 });
+            } else {
+              targetEl.scrollIntoView({ behavior: 'smooth' });
+            }
+          }
+        }
+      });
+    });
+
+    /* ----------------------------------------------------------------
+       2. SCROLL PROGRESS, PARALLAX & DYNAMIC HEADER
+    ---------------------------------------------------------------- */
+    const progressBar = document.getElementById('scroll-progress-bar');
+    const mainHeader = document.getElementById('main-header');
+    const floatingControls = document.getElementById('floating-controls');
+    const heroBg = document.getElementById('hero-bg');
+    const philosophyImg = document.getElementById('philosophy-img');
+    const sanctuaryImg = document.getElementById('sanctuary-img');
+    const visitImg = document.getElementById('visit-img');
+
+    const navLinks = document.querySelectorAll('#desktop-nav .nav-link');
+    const sections = ['hero-section', 'philosophy-section', 'signature-menu', 'the-space', 'gallery', 'visit-serentea'];
+
+    function handleScrollEffects() {
+      const scrollY = window.pageYOffset || document.documentElement.scrollTop;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = docHeight > 0 ? (scrollY / docHeight) * 100 : 0;
+
+      // 1. Progress Bar
+      if (progressBar) {
+        progressBar.style.width = progress + '%';
+      }
+
+      // 2. Header Glassmorph & Shrink
+      if (scrollY > 50) {
+        mainHeader.classList.add('header-scrolled');
+      } else {
+        mainHeader.classList.remove('header-scrolled');
+      }
+
+      // 3. Floating Action Bar Reveal
+      if (scrollY > 400) {
+        floatingControls.classList.remove('opacity-0', 'translate-y-6', 'pointer-events-none');
+        floatingControls.classList.add('opacity-100', 'translate-y-0');
+      } else {
+        floatingControls.classList.add('opacity-0', 'translate-y-6', 'pointer-events-none');
+        floatingControls.classList.remove('opacity-100', 'translate-y-0');
+      }
+
+      // 4. Parallax Depth on Images
+      if (heroBg && scrollY < window.innerHeight * 1.3) {
+        heroBg.style.transform = `translate3d(0, ${scrollY * 0.28}px, 0) scale(1.06)`;
+      }
+
+      const winH = window.innerHeight;
+      if (philosophyImg) {
+        const rect = philosophyImg.parentElement.getBoundingClientRect();
+        if (rect.top < winH && rect.bottom > 0) {
+          const delta = (rect.top - winH / 2) * 0.12;
+          philosophyImg.style.transform = `translate3d(0, ${delta}px, 0) scale(1.05)`;
+        }
+      }
+
+      if (sanctuaryImg) {
+        const rect = sanctuaryImg.parentElement.getBoundingClientRect();
+        if (rect.top < winH && rect.bottom > 0) {
+          const delta = (rect.top - winH / 2) * 0.1;
+          sanctuaryImg.style.transform = `translate3d(0, ${delta}px, 0) scale(1.05)`;
+        }
+      }
+
+      if (visitImg) {
+        const rect = visitImg.parentElement.getBoundingClientRect();
+        if (rect.top < winH && rect.bottom > 0) {
+          const delta = (rect.top - winH / 2) * 0.1;
+          visitImg.style.transform = `translate3d(0, ${delta}px, 0) scale(1.05)`;
+        }
+      }
+
+      // 5. ScrollSpy Nav Links Active State
+      let currentSectionId = '';
+      sections.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) {
+          const rect = el.getBoundingClientRect();
+          if (rect.top <= 160 && rect.bottom >= 160) {
+            currentSectionId = id;
+          }
+        }
+      });
+
+      if (currentSectionId) {
+        navLinks.forEach(link => {
+          link.classList.remove('active', 'text-primary', 'font-semibold');
+          link.classList.add('text-on-surface-variant');
+          if (link.getAttribute('href') === '#' + currentSectionId) {
+            link.classList.add('active', 'text-primary', 'font-semibold');
+            link.classList.remove('text-on-surface-variant');
+          }
+        });
+      }
+    }
+
+    window.addEventListener('scroll', handleScrollEffects, { passive: true });
+    handleScrollEffects();
+
+    /* ----------------------------------------------------------------
+       3. INTERSECTION OBSERVER FOR SCROLL REVEALS
+    ---------------------------------------------------------------- */
+    const observerOptions = {
+      root: null,
+      rootMargin: '120px 0px 50px 0px',
+      threshold: 0.05
+    };
+
+    const revealObserver = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-revealed');
+          obs.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.scroll-fade-up').forEach(el => {
+      revealObserver.observe(el);
+    });
+
+    /* ----------------------------------------------------------------
+       4. MENU FILTER TABS INTERACTION
+    ---------------------------------------------------------------- */
+    const filterBtns = document.querySelectorAll('#menu-filters .menu-tab-btn');
+    const menuCards = document.querySelectorAll('#menu-grid .menu-card');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        filterBtns.forEach(b => {
+          b.classList.remove('bg-primary-container', 'text-surface', 'shadow-sm', 'active');
+          b.classList.add('bg-surface-container', 'text-on-surface');
+        });
+        this.classList.remove('bg-surface-container', 'text-on-surface');
+        this.classList.add('bg-primary-container', 'text-surface', 'shadow-sm', 'active');
+
+        const filter = this.getAttribute('data-filter');
+
+        menuCards.forEach(card => {
+          const category = card.getAttribute('data-category');
+          if (filter === 'all' || category === filter) {
+            card.style.display = 'flex';
+            card.classList.remove('is-revealed');
+            setTimeout(() => card.classList.add('is-revealed'), 30);
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    /* ----------------------------------------------------------------
+       5. MODALS & SHEETS (RESERVATION, TASTING SHEET, LIGHTBOX)
+    ---------------------------------------------------------------- */
+    function openReservationModal() {
+      const modal = document.getElementById('reservation-dialog');
+      if (modal) {
+        modal.classList.remove('hidden');
+        if (lenis) lenis.stop();
+      }
+    }
+
+    function closeReservationModal() {
+      const modal = document.getElementById('reservation-dialog');
+      if (modal) {
+        modal.classList.add('hidden');
+        if (lenis) lenis.start();
+      }
+    }
+
+    function handleReservationSubmit(e) {
+      e.preventDefault();
+      closeReservationModal();
+      showToast('Table inquiry received. Our concierge will confirm via text.');
+    }
+
+    const tastingData = {
+      'Masala Chai': {
+        origin: 'Dibrugarh Estate, Assam',
+        temp: '98°C Simmer',
+        steep: '14 mins Slow Reduction',
+        notes: 'Crushed Cardamom, Cinnamon Bark, Fresh Ginger, Cloves',
+        price: '₹180',
+        badge: 'House Icon',
+        desc: 'Our proprietary slow-simmered blend crafted with dark Assam CTC leaf and stone-ground Malabar spices, emulsified with velvety whole milk.'
+      },
+      'Darjeeling First Flush': {
+        origin: 'Makaibari Estate, 5,500 ft',
+        temp: '85°C Precise',
+        steep: '180s Unhurried',
+        notes: 'Champagne Muscatel, Wild Apricot, Wet Stones',
+        price: '₹240',
+        badge: 'Spring Flush',
+        desc: 'Plucked exclusively at dawn during the first spring surge. Delicate champagne-hued liquor with bright floral top notes and natural lingering sweetness.'
+      },
+      'Spanish Cortado': {
+        origin: 'Coorg Estate Micro-Lot',
+        temp: '92°C Extraction',
+        steep: '26s Double Ristretto',
+        notes: 'Roasted Hazelnut, Condensed Milk, Nutmeg Dust',
+        price: '₹260',
+        badge: 'Double Ristretto',
+        desc: 'A dense double ristretto pulled directly over a spoonful of sweetened condensed milk, crowned with silky micro-foam.'
+      },
+      'Ceremonial Iced Matcha': {
+        origin: 'Uji, Kyoto, Japan',
+        temp: '75°C Whisked',
+        steep: 'Chasen Whisked Fresh',
+        notes: 'Sweet Umami, Grass Clippings, Wild Agave, Cream',
+        price: '₹290',
+        badge: 'Kyoto Uji',
+        desc: 'First-harvest Tencha stone-ground on granite wheels in Uji. Whisked by hand and poured over chilled oat milk with a hint of organic agave.'
+      },
+      'Classic Cappuccino': {
+        origin: 'Baba Budangiri Hills',
+        temp: '91°C Double Shot',
+        steep: '28s Espresso',
+        notes: 'Dark Cocoa, Toasted Macadamia, Caramel Crema',
+        price: '₹210',
+        badge: 'Single Origin',
+        desc: 'Medium-roasted heirloom Arabica beans grown under natural rainforest canopy. Velvety steamed milk with rich micro-foam.'
+      },
+      'Chocolate Babka Croissant': {
+        origin: 'Sanctuary Boulangerie',
+        temp: 'Warm from Oven',
+        steep: 'Baked Daily 07:00 AM',
+        notes: '70% Belgian Dark Cocoa, Flaky Butter Layers, Maldon Salt',
+        price: '₹220',
+        badge: 'Boulangerie',
+        desc: 'Hand-laminated 48-hour fermented butter pastry ribboned with artisanal dark chocolate ganache and finished with crunchy sea salt flakes.'
+      }
+    };
+
+    function openTastingDetails(itemTitle) {
+      const data = tastingData[itemTitle];
+      if (!data) return;
+
+      document.getElementById('tasting-title').textContent = itemTitle;
+      document.getElementById('tasting-badge').textContent = data.badge;
+      document.getElementById('tasting-origin').textContent = data.origin;
+      document.getElementById('tasting-temp').textContent = data.temp;
+      document.getElementById('tasting-steep').textContent = data.steep;
+      document.getElementById('tasting-notes').textContent = data.notes;
+      document.getElementById('tasting-price').textContent = data.price;
+      document.getElementById('tasting-desc').textContent = data.desc;
+
+      document.getElementById('tasting-dialog').classList.remove('hidden');
+      if (lenis) lenis.stop();
+    }
+
+    function closeTastingModal() {
+      document.getElementById('tasting-dialog').classList.add('hidden');
+      if (lenis) lenis.start();
+    }
+
+    function openMenuPDFPreview() {
+      showToast('Opening complete Autumn/Winter Artisanal Menu catalog...');
+      setTimeout(() => {
+        const signatureMenu = document.getElementById('signature-menu');
+        if (signatureMenu) {
+          if (lenis) lenis.scrollTo(signatureMenu);
+          else signatureMenu.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 500);
+    }
+
+    function openLightbox(imgSrc, title, caption) {
+      const dialog = document.getElementById('lightbox-dialog');
+      document.getElementById('lightbox-img').src = imgSrc;
+      document.getElementById('lightbox-title').textContent = title;
+      document.getElementById('lightbox-caption').textContent = caption;
+      dialog.classList.remove('hidden');
+      if (lenis) lenis.stop();
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox-dialog').classList.add('hidden');
+      if (lenis) lenis.start();
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      const toastMsg = document.getElementById('toast-message');
+      toastMsg.textContent = msg;
+      toast.classList.remove('translate-x-32', 'opacity-0');
+      toast.classList.add('translate-x-0', 'opacity-100');
+      setTimeout(() => {
+        toast.classList.add('translate-x-32', 'opacity-0');
+        toast.classList.remove('translate-x-0', 'opacity-100');
+      }, 3500);
+    }
+
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileDrawer = document.getElementById('mobile-drawer');
+
+    if (mobileMenuBtn) {
+      mobileMenuBtn.addEventListener('click', () => {
+        mobileDrawer.classList.toggle('hidden');
+      });
+    }
+
+    function closeMobileMenu() {
+      if (mobileDrawer) mobileDrawer.classList.add('hidden');
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeReservationModal();
+        closeTastingModal();
+        closeLightbox();
+        closeMobileMenu();
+      }
+    });
+
+    /* ----------------------------------------------------------------
+       6. SOUNDSCAPE SYNTHESIZER (TEA AMBIENCE WEB AUDIO API)
+    ---------------------------------------------------------------- */
+    let audioCtx = null;
+    let isPlaying = false;
+    let noiseNode = null;
+    let gainNode = null;
+
+    const audioToggleBtn = document.getElementById('audio-toggle-btn');
+    const audioBtnText = audioToggleBtn ? audioToggleBtn.querySelector('.audio-btn-text') : null;
+    const audioBtnIcon = audioToggleBtn ? audioToggleBtn.querySelector('.material-symbols-outlined') : null;
+
+    if (audioToggleBtn) {
+      audioToggleBtn.addEventListener('click', () => {
+        if (!isPlaying) {
+          startAmbience();
+        } else {
+          stopAmbience();
+        }
+      });
+    }
+
+    function startAmbience() {
+      try {
+        const AudioContext = window.AudioContext || window.webkitAudioContext;
+        audioCtx = new AudioContext();
+
+        const bufferSize = audioCtx.sampleRate * 2;
+        const noiseBuffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+        const output = noiseBuffer.getChannelData(0);
+        let b0 = 0, b1 = 0, b2 = 0, b3 = 0, b4 = 0, b5 = 0, b6 = 0;
+        
+        for (let i = 0; i < bufferSize; i++) {
+          const white = Math.random() * 2 - 1;
+          b0 = 0.99886 * b0 + white * 0.0555179;
+          b1 = 0.99332 * b1 + white * 0.0750759;
+          b2 = 0.96900 * b2 + white * 0.1538520;
+          b3 = 0.86650 * b3 + white * 0.3104856;
+          b4 = 0.55000 * b4 + white * 0.5329522;
+          b5 = -0.7616 * b5 - white * 0.0168980;
+          output[i] = b0 + b1 + b2 + b3 + b4 + b5 + b6 + white * 0.5362;
+          output[i] *= 0.05;
+          b6 = white * 0.115926;
+        }
+
+        const whiteNoise = audioCtx.createBufferSource();
+        whiteNoise.buffer = noiseBuffer;
+        whiteNoise.loop = true;
+
+        const filter = audioCtx.createBiquadFilter();
+        filter.type = 'lowpass';
+        filter.frequency.value = 650;
+
+        gainNode = audioCtx.createGain();
+        gainNode.gain.setValueAtTime(0.01, audioCtx.currentTime);
+        gainNode.gain.exponentialRampToValueAtTime(0.18, audioCtx.currentTime + 1.5);
+
+        whiteNoise.connect(filter);
+        filter.connect(gainNode);
+        gainNode.connect(audioCtx.destination);
+
+        whiteNoise.start();
+        noiseNode = whiteNoise;
+        isPlaying = true;
+
+        if (audioBtnText) audioBtnText.textContent = 'Playing';
+        if (audioBtnIcon) {
+          audioBtnIcon.textContent = 'volume_up';
+          audioBtnIcon.classList.add('text-emerald-700');
+        }
+        showToast('Ambient rain & tea lounge soundscape active.');
+      } catch (e) {
+        console.warn('Audio ambience:', e);
+      }
+    }
+
+    function stopAmbience() {
+      if (gainNode && audioCtx) {
+        gainNode.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.8);
+        setTimeout(() => {
+          if (noiseNode) {
+            try { noiseNode.stop(); } catch(e) {}
+          }
+          if (audioCtx) {
+            try { audioCtx.close(); } catch(e) {}
+          }
+          isPlaying = false;
+          if (audioBtnText) audioBtnText.textContent = 'Ambience';
+          if (audioBtnIcon) {
+            audioBtnIcon.textContent = 'volume_mute';
+            audioBtnIcon.classList.remove('text-emerald-700');
+          }
+          showToast('Soundscape muted.');
+        }, 800);
+      }
+    }
+  </script>
+</body>
+</html>
